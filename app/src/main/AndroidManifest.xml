@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zoo">
         <activity
-            android:name=".Katalog"
+            android:name=".KatalogActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
