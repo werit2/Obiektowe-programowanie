@@ -1,4 +1,4 @@
 # Obiektowe-programowanie
 
-MainActivity - mapka
-Katalog - katalog
+#MainActivity - mapka
+#Katalog - katalog
