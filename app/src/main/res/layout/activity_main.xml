@@ -6,27 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="225dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="36dp"
+        android:layout_marginBottom="28dp"
         android:text="Przełącz na katalog"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/mapka"
         android:layout_width="0dp"
         android:layout_height="575dp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginBottom="39dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/mapka" />
+
+    <ImageView
+        android:id="@+id/ramkaa"
+        android:layout_width="177dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="410dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkaa" />
+
+    <ImageView
+        android:id="@+id/ramkab"
+        android:layout_width="105dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="220dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkab" />
+
+    <ImageView
+        android:id="@+id/ramkac"
+        android:layout_width="114dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="301dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkac" />
+
+    <ImageView
+        android:id="@+id/ramkad"
+        android:layout_width="235dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkad" />
+
+    <ImageView
+        android:id="@+id/ramkae"
+        android:layout_width="119dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="67dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkae" />
+
+    <ImageView
+        android:id="@+id/ramkaf"
+        android:layout_width="125dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="204dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkaf" />
+
+    <ImageView
+        android:id="@+id/ramkag"
+        android:layout_width="125dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="358dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="@+id/mapka"
+        app:layout_constraintTop_toTopOf="@+id/mapka"
+        app:srcCompat="@drawable/ramkag" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
